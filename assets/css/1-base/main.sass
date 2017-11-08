@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Quicksand')
+
+html, body
+  margin: 0
+  padding: 0
+
+body
+  font:
+    family: 'Montserrat', sans-serif
+    size: 16px
+
+main
+  max-width: 600px
+  margin: 0 auto
+
+
+  .main-wrapper
+    opacity: 0
+    transition: opacity 200ms ease-in-out
+
+    margin-top: -20rem
+    padding: 0 2rem
+
+    font:
+      family: "Quicksand", sans-serif
+
+    &.visible
+      opacity: 1

@@ -1,0 +1,61 @@
+.section#header
+  transform: rotateZ(-30deg) translate(7rem, -15rem)
+  background: #eee
+  padding: 20rem 5rem 2rem
+  transition: all 200ms ease-in-out
+
+  &:hover > .title
+    transform: rotateZ(0deg) translate(0, 0) scale(1)
+
+
+  .title
+    margin: 2rem auto 1rem
+    text-align: center
+    transform: rotateZ(30deg) translate(-5rem, -2rem) scale(1.5)
+    transition: transform 200ms ease-in-out
+    font-size: 2rem
+    h1
+      font:
+        size: 2em
+        weight: 400
+      margin: 0
+
+    .sub
+      font-size: .34em
+      color: #333
+      transform: translateY(-1rem)
+      display: block
+
+  .menu-wrapper
+    .menu
+      list-style: none
+      padding: 0
+      margin: 0 auto
+      text-align: center
+
+      li
+        display: inline-block
+        margin: 0 1rem
+        transition: transform 200ms ease-in-out
+        &:hover
+          transform: scale(1.1)
+        a
+          text-decoration: none
+          color: #666
+
+          &.active
+            text-decoration: underline
+
+  &.selection-active
+
+    transform: rotateZ(0deg) translate(0rem, -20rem)
+
+    .title
+      transform: rotateZ(0deg) translate(0, 0) scale(1)
+
+  &.about
+    background: #A5FFFC
+  &.reference
+    background: #FFCACA
+  &.contact
+    background: #A5CCFF

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Quicksand");
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
+
+main {
+  max-width: 600px;
+  margin: 0 auto; }
+  main .main-wrapper {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    margin-top: -20rem;
+    padding: 0 2rem;
+    font-family: "Quicksand", sans-serif; }
+    main .main-wrapper.visible {
+      opacity: 1; }
+
+.section#header {
+  transform: rotateZ(-30deg) translate(7rem, -15rem);
+  background: #eee;
+  padding: 20rem 5rem 2rem;
+  transition: all 200ms ease-in-out; }
+  .section#header:hover > .title {
+    transform: rotateZ(0deg) translate(0, 0) scale(1); }
+  .section#header .title {
+    margin: 2rem auto 1rem;
+    text-align: center;
+    transform: rotateZ(30deg) translate(-5rem, -2rem) scale(1.5);
+    transition: transform 200ms ease-in-out;
+    font-size: 2rem; }
+    .section#header .title h1 {
+      font-size: 2em;
+      font-weight: 400;
+      margin: 0; }
+    .section#header .title .sub {
+      font-size: .34em;
+      color: #333;
+      transform: translateY(-1rem);
+      display: block; }
+  .section#header .menu-wrapper .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+    .section#header .menu-wrapper .menu li {
+      display: inline-block;
+      margin: 0 1rem;
+      transition: transform 200ms ease-in-out; }
+      .section#header .menu-wrapper .menu li:hover {
+        transform: scale(1.1); }
+      .section#header .menu-wrapper .menu li a {
+        text-decoration: none;
+        color: #666; }
+        .section#header .menu-wrapper .menu li a.active {
+          text-decoration: underline; }
+  .section#header.selection-active {
+    transform: rotateZ(0deg) translate(0rem, -20rem); }
+    .section#header.selection-active .title {
+      transform: rotateZ(0deg) translate(0, 0) scale(1); }
+  .section#header.about {
+    background: #A5FFFC; }
+  .section#header.reference {
+    background: #FFCACA; }
+  .section#header.contact {
+    background: #A5CCFF; }
