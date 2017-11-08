@@ -5,7 +5,7 @@ function selectionActive(keyword) {
   $('.contact').removeClass('contact');
   $("#header").addClass('selection-active').addClass(keyword);
 
-  var url = "/assets/view/" + keyword + ".html";
+  var url = "assets/view/" + keyword + ".html";
 
   $('.main-wrapper').removeClass('visible');
   $('.active').removeClass('active');
