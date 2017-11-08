@@ -30,6 +30,13 @@
 		"oAP": "\/.idea\/modules.xml",
 		"oF": 0
 		},
+	"\/.idea\/vcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.idea\/vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/workspace.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -165,6 +172,13 @@
 		"oAP": "\/assets\/view\/about.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/view\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/view\/contact.html",
+		"oF": 0
 		},
 	"\/assets\/view\/contact.pug": {
 		"cB": 0,
